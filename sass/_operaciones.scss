@@ -1,0 +1,13 @@
+@import "_variables";
+
+.caja-primary {
+    background-color: $primary;
+    margin: $ancho*1.2;
+}
+
+.caja-secondary {
+    background-color: $secondary;
+    width: ($ancho/2)+30;
+}
+
+    

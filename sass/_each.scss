@@ -1,0 +1,43 @@
+@import "_variables.scss";
+
+@for $i from 1 to 6 {
+    .fontsize-#{$i} {
+        font-size: $i * 2em
+    }
+}
+
+@for $i from 1 to 5 {
+    .width-#{$i} {
+        width: $i * 20%;
+    }
+}
+
+@for $i from 1 to 5 {
+    .margin-#{$i} {
+        margin: $i * 0.5rem;
+    }
+}
+
+@each $color in $colors {
+    .background-#{$color} {
+        background-color: $color;
+    }
+}
+
+@each $i, $color in $colores {
+    .btn--#{$i}{
+        background-color: $color;
+    }
+}
+
+@for $i from 1 to 10 {
+    .top_margin-#{$i} {
+        margin-top: $i * 1rem;
+    }
+}
+
+@for $i from 1 to 5 {
+    .padding-#{$i} {
+        padding: $i * 1rem;
+    }
+}

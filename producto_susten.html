@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Rouge+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Sustenart</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid"> <!--logo-->
+          <a class="navbar-brand" href="index.html"><img class="mb-0" src="img/logosusten.png" width="80px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+          </button> <!--menu de navegacion-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="producto_susten.html">Tienda</a>
+                  <a class="nav-link" href="quienes_somos.html">Quienes Somos</a>
+                  <a class="nav-link" href="donde_estamos.html">Donde Estamos</a>
+                  <a class="nav-link" href="asesoramiento.html">Asesoramiento</a>
+                  <a class="nav-link" href="carrito.html">Carrito</a>
+                  <a class="nav-link" href="./backoffice.html">Back-Office</a>
+              </div>
+            </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Empieza la tienda -->
+    <section class="container">
+        <div class="row justify-content-center align-content-center">
+            <h1 class="container__h1 col-8">
+                Tienda Sustenart
+            </h1>
+        </div>
+        <hr> 
+        <div class="row justify-content-center align-content-center margin-2" id="productosPrint">
+        
+        </div>
+        <!--VELAS-->
+        <!--
+        <div class="row" id="velas">
+            <div class="col-12 justify-content-center align-items-center">
+                <h2 class="tituloProductos margin-2">
+                    Velas
+                </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center align-content-center margin-2" id="productosPrint">
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/velas/vela_transp.jpeg" class="card-img-top" alt="vela bali basito">
+              <div class="card-body">
+                <h5 class="card-title">Vela Bali</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+              </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/velas/vela_blanca.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vela Maui</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/velas/vela_negra.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vela Nisa</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row justify-content-center align-content-center margin-2">
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/velas/vela_cuerpo.jpeg" class="card-img-top" alt="vela bali basito">
+                <div class="card-body">
+                  <h5 class="card-title">Vela Venus</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/velas/vela_estatua.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vela Helena</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/velas/vela_manchada.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vela Indie</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <hr> 
+        <div class="row" id="curvy">
+            <div class="col-12 justify-content-center align-items-center">
+                <h2 class="tituloProductos margin-2">
+                    Espejos Línea Curvy
+                </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center align-content-center margin-2">
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/espejos/curvy_petra.jpeg" class="card-img-top" alt="vela bali basito">
+                <div class="card-body">
+                  <h5 class="card-title">Set Petra</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/espejos/curvy_umami.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Umamy</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/espejos/curvy_wave.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Wave</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-content-center margin-2">
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/espejos/curvy_huevo.jpeg" class="card-img-top" alt="vela bali basito">
+                <div class="card-body">
+                  <h5 class="card-title">Huevo</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/espejos/curvy_nube.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nube</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/espejos/curvy_nuez.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nuez</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <hr> 
+        <div class="row" id="nube">
+            <div class="col-12 justify-content-center align-items-center">
+                <h2 class="tituloProductos margin-2">
+                   Línea Nube
+                </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center align-content-center margin-2">
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/nube/nube_banquito.jpeg" class="card-img-top" alt="vela bali basito">
+                <div class="card-body">
+                  <h5 class="card-title">Banquito Nube</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/nube/nube_espejonieve.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Espejo Nieve</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/nube/nube_espejoredondo.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Espejo Redondo Nieve</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-content-center margin-2">
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/nube/nube_florero.jpeg" class="card-img-top" alt="vela bali basito">
+                <div class="card-body">
+                  <h5 class="card-title">Florero Nube</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/nube/nube_lapicero.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lapicero Nube</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+            <div class="card col-md-4 col-6 margin-3" style="width: 18rem;">
+                <img src="img/nube/nube_maceta.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maceta Nube</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <buttton class="btn btn-primary" onclick="comprar(${index})">Comprar</button>
+                </div>
+            </div>
+        </div> 
+      -->
+    </section>
+    <hr>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="a_footer">Home</a>
+        </li>
+          <li class="nav-item"><a href="producto_susten.html" class="a_footer">Tienda Sustenart</a></li>
+          <li class="nav-item"><a href="quienes_somos.html" class="a_footer">Quienes Somos</a></li>
+          <li class="nav-item"><a href="donde_estamos.html" class="a_footer">Donde estamos</a></li>
+          <li class="nav-item"><a href="asesoramiento.html" class="a_footer">Asesoramiento</a></li>
+      </ul>
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://www.instagram.com/sustenart_/" target="_blank" class="a_footer"><img src="img/instagram.png" id="redes"></a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/SustenartOficial" target="_blank" class="a_footer"><img src="img/facebook.png" id="redes"></a></li>
+        <li class="nav-item"><a href="https://api.whatsapp.com/send?phone=541156354244" target="_blank" class="a_footer"><img src="img/whatsapp.png" id="redes"></a></li>
+    </ul>
+  </footer>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src = "./js/productos.js"></script>
+</body>
