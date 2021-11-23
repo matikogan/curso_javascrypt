@@ -410,3 +410,54 @@ h5 {
     }
   }
 
+
+//ESTILO CARRITO
+.carrito {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem ;
+}
+
+
+.carrito-vacio {
+
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+//Resumen compra carrito
+.resumen-compra {
+    background-color:#FAFAFF;
+    border-radius: 6px;
+    margin-left: 10px;
+    box-shadow: 5px 9px 25px 2px rgba(0,0,0,0.74);
+-webkit-box-shadow: 5px 9px 25px 2px rgba(0,0,0,0.74);
+-moz-box-shadow: 5px 9px 25px 2px rgba(0,0,0,0.74);
+}
+
+.carrito-resumen{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.resumen-compra h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.btn-comprar{
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: blanchedalmond;
+
+}

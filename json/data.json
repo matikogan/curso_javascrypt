@@ -1,0 +1,114 @@
+[
+    {
+      "precio": 1200,
+      "category": "velas",
+      "title": "Maui",
+      "thumbnailUrl": "../img/velas/vela_blanca.jpeg",
+      "id": 1
+    },
+    {
+      "precio": 1200,
+      "category": "velas",
+      "title": "Bali",
+      "thumbnailUrl": "../img/velas/vela_transp.jpeg",
+      "id": 2
+    },
+    {
+      "precio": 1200,
+      "category": "velas",
+      "title": "Nisa",
+      "thumbnailUrl": "../img/velas/vela_negra.jpeg",
+      "id": 2
+    },
+    {
+      "precio": 1200,
+      "category": "velas",
+      "title": "Venus",
+      "thumbnailUrl": "../img/velas/vela_cuerpo.jpeg",
+      "id": 3
+    },
+    {
+      "precio": 1200,
+      "category": "velas",
+      "title": "Helena",
+      "thumbnailUrl": "../img/velas/vela_estatua.jpeg",
+      "id": 4
+    },
+    {
+      "precio": 1200,
+      "category": "velas",
+      "title": "Indie",
+      "thumbnailUrl": "../img/velas/vela_manchada.jpeg",
+      "id": 5
+    },
+    {
+        "precio": 4500,
+        "category": "espejos",
+        "title": "Set Petra",
+        "thumbnailUrl": "../img/espejos/curvy_petra.jpeg",
+        "id": 6
+    },
+    {
+        "precio": 5200,
+        "category": "espejos",
+        "title": "Umamy",
+        "thumbnailUrl": "../img/espejos/curvy_umami.jpeg",
+        "id": 7
+    },
+    {
+        "precio": 5500,
+        "category": "espejos",
+        "title": "Wave",
+        "thumbnailUrl": "../img/espejos/curvy_wave.jpeg",
+        "id": 8
+    },
+    {
+        "precio": 4700,
+        "category": "espejos",
+        "title": "Huevo",
+        "thumbnailUrl": "../img/espejos/curvy_huevo.jpeg",
+        "id": 9
+    },
+    {
+        "precio": 7900,
+        "category": "espejos",
+        "title": "Nube",
+        "thumbnailUrl": "../img/espejos/curvy_nube.jpeg",
+        "id": 10
+    },
+    {
+        "precio": 6300,
+        "category": "espejos",
+        "title": "Nuez",
+        "thumbnailUrl": "../img/espejos/curvy_nuez.jpeg",
+        "id": 11
+    },
+    {
+        "precio": 5200,
+        "category": "nube",
+        "title": "Banquito Nube",
+        "thumbnailUrl": "../img/nube/nube_banquito.jpeg",
+        "id": 12
+    },
+    {
+        "precio": 2850,
+        "category": "nube",
+        "title": "Florero",
+        "thumbnailUrl": "../img/nube/nube_florero.jpeg",
+        "id": 13
+    },
+    {
+        "precio": 3200,
+        "category": "nube",
+        "title": "Lapicero",
+        "thumbnailUrl": "../img/nube/nube_lapicero.jpeg",
+        "id": 14
+    },
+    {
+        "precio": 5100,
+        "category": "nube",
+        "title": "Maceta",
+        "thumbnailUrl": "../img/nube/nube_maceta.jpeg",
+        "id": 15
+    }
+  ]
